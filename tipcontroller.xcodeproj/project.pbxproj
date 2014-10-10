@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C441A90C19E79584008E50C8 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C441A90A19E79584008E50C8 /* SettingsViewController.m */; };
+		C441A90D19E79584008E50C8 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C441A90B19E79584008E50C8 /* SettingsViewController.xib */; };
 		C4BBD51919E5961200489B4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBD51819E5961200489B4B /* main.m */; };
 		C4BBD51C19E5961200489B4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBD51B19E5961200489B4B /* AppDelegate.m */; };
 		C4BBD51F19E5961200489B4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBD51E19E5961200489B4B /* ViewController.m */; };
@@ -14,6 +16,8 @@
 		C4BBD52419E5961200489B4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4BBD52319E5961200489B4B /* Images.xcassets */; };
 		C4BBD52719E5961200489B4B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4BBD52519E5961200489B4B /* LaunchScreen.xib */; };
 		C4BBD53319E5961200489B4B /* tipcontrollerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBD53219E5961200489B4B /* tipcontrollerTests.m */; };
+		C4BBD53F19E5995500489B4B /* TipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BBD53D19E5995500489B4B /* TipViewController.m */; };
+		C4BBD54019E5995500489B4B /* TipViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4BBD53E19E5995500489B4B /* TipViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C441A90919E79584008E50C8 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		C441A90A19E79584008E50C8 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		C441A90B19E79584008E50C8 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
 		C4BBD51319E5961200489B4B /* tipcontroller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tipcontroller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4BBD51719E5961200489B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4BBD51819E5961200489B4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +47,9 @@
 		C4BBD52C19E5961200489B4B /* tipcontrollerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipcontrollerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4BBD53119E5961200489B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4BBD53219E5961200489B4B /* tipcontrollerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tipcontrollerTests.m; sourceTree = "<group>"; };
+		C4BBD53C19E5995500489B4B /* TipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipViewController.h; sourceTree = "<group>"; };
+		C4BBD53D19E5995500489B4B /* TipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipViewController.m; sourceTree = "<group>"; };
+		C4BBD53E19E5995500489B4B /* TipViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TipViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +99,12 @@
 				C4BBD52319E5961200489B4B /* Images.xcassets */,
 				C4BBD52519E5961200489B4B /* LaunchScreen.xib */,
 				C4BBD51619E5961200489B4B /* Supporting Files */,
+				C4BBD53C19E5995500489B4B /* TipViewController.h */,
+				C4BBD53D19E5995500489B4B /* TipViewController.m */,
+				C4BBD53E19E5995500489B4B /* TipViewController.xib */,
+				C441A90919E79584008E50C8 /* SettingsViewController.h */,
+				C441A90A19E79584008E50C8 /* SettingsViewController.m */,
+				C441A90B19E79584008E50C8 /* SettingsViewController.xib */,
 			);
 			path = tipcontroller;
 			sourceTree = "<group>";
@@ -201,7 +217,9 @@
 			files = (
 				C4BBD52219E5961200489B4B /* Main.storyboard in Resources */,
 				C4BBD52719E5961200489B4B /* LaunchScreen.xib in Resources */,
+				C4BBD54019E5995500489B4B /* TipViewController.xib in Resources */,
 				C4BBD52419E5961200489B4B /* Images.xcassets in Resources */,
+				C441A90D19E79584008E50C8 /* SettingsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +239,8 @@
 			files = (
 				C4BBD51F19E5961200489B4B /* ViewController.m in Sources */,
 				C4BBD51C19E5961200489B4B /* AppDelegate.m in Sources */,
+				C441A90C19E79584008E50C8 /* SettingsViewController.m in Sources */,
+				C4BBD53F19E5995500489B4B /* TipViewController.m in Sources */,
 				C4BBD51919E5961200489B4B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,6 +366,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tipcontroller/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -356,6 +377,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tipcontroller/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -414,6 +436,7 @@
 				C4BBD53819E5961200489B4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C4BBD53919E5961200489B4B /* Build configuration list for PBXNativeTarget "tipcontrollerTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +445,7 @@
 				C4BBD53B19E5961200489B4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
